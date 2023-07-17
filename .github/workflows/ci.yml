@@ -4,7 +4,7 @@ on:
     branches:
       - master
 
-job:
+jobs:
   flutter_test:
     name: Run flutter test
     run-on: windows-latest
