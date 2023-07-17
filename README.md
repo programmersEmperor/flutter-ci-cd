@@ -1,6 +1,6 @@
 # unit_integration_test
 
-A new Flutter project b.
+A new Flutter project.
 
 ## Getting Started
 
