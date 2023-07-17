@@ -1,0 +1,1 @@
+flutter drive \ --driver=test/integration_tests/test_driver.dart \ --target=test/integration_tests/increment_integration_test/increment_integration_test.dart
