@@ -23,7 +23,7 @@ void main(){
 
     var result = await incrementer.futureIncrement(1);
 
-    expect(result, 1);
-    // expect(result, 2);
+    // expect(result, 1);
+    expect(result, 2);
   });
 }
