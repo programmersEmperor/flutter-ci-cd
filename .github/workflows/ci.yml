@@ -19,7 +19,6 @@ jobs:
       - run: flutter pub get
       - run: flutter test
 
-
   build_IOS:
     name: Build IOS
     runs-on: macos-latest
