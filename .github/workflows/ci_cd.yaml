@@ -6,6 +6,7 @@ on:
 
 jobs:
   flutter_test:
+    if: always()
     name: Run flutter test
     runs-on: windows-latest
     steps:
@@ -20,6 +21,7 @@ jobs:
       - run: flutter test
 
   build_Android:
+    if: always()
     name: build Android
     runs-on: windows-latest
     needs: flutter_test
